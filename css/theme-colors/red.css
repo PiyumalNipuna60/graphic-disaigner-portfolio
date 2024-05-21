@@ -1,0 +1,38 @@
+/* 
+ * 	Red Color
+ */
+
+
+.header-one .header .navigation ul li.select a, .header-two .header .navigation ul li.select a{color:#f15b5a;}
+.header-one .header .navigation ul li a:before, .header-two .header .navigation ul li a:before {background:#f15b5a;}
+.header-one .header .navigation ul li a:hover, .header-two .header .navigation ul li a:hover{color:#f15b5a;}
+.our-studio .icons i{ color:#f15b5a;}
+.main-heading h4{ color: #f15b5a;}
+.work:hover span.number{ color:#f15b5a !important;}
+.projects .work:hover .text h6{ color:#f15b5a ;}
+.kind-words span{color:#f15b5a;}
+
+.read-more-btn{background:#f15b5a;}
+
+#client-words .owl-page.active{ background: #f15b5a;}
+#client-words .owl-page:hover{background: #f15b5a;}
+.z-tabs.silver > ul > li> a:hover{ background:#f15b5a;}
+
+.footer .footer-bottom a{ color:#f15b5a;}
+.cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active{background-color:#f15b5a; border-color:#f15b5a ;}
+.cbp-l-filters-button .cbp-filter-item-active {background: #f15b5a; border-color: #f15b5a;}
+.cbp-l-filters-button .cbp-filter-item:hover { background: #f15b5a; border: solid 1px #f15b5a;}
+.sub-banner .text-detail ul{border-bottom:solid 4px #f15b5a;}
+.sub-banner .text-detail ul li a:hover{ color:#f15b5a;}
+.news .news-sec .news-main span{background: #f15b5a;}
+.news .news-sec .news-main{ border-bottom:solid 4px #f15b5a;}
+.news .news-sec .detail a:hover{ color:#f15b5a; border-bottom:solid 1px #f15b5a;}
+.new-older .more-post:hover{color:#f15b5a;}
+.news-detail .next-posts a:hover{ color:#f15b5a;}
+.news-detail .comments .comment-sec .detail a{ color: #f15b5a;}
+.header-two-main .header ul li a:hover{background: #f15b5a; }
+.header-two-main .header ul li.select a{background: #f15b5a;}
+.process span{color:#f15b5a;}
+.footer-light .footer-bottom a{ color:#f15b5a;} 
+
+.cd-primary-nav { background: #f15b5a;}

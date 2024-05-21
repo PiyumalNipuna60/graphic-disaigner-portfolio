@@ -1,0 +1,289 @@
+
+/* Common style */
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 0px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+.tp-banner-container2 {width: 92%; left: 4%;}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	
+	max-width: 100%;
+}
+
+.grid figure figcaption {
+	padding: 0px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+
+.grid figure h2 span {
+	font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 0;
+	font-size: 18px;
+	text-transform: capitalize;
+	
+}
+
+/*---------------*/
+/***** Sadie *****/
+/*---------------*/
+
+
+
+
+figure.effect-sadie figcaption::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:rgba(255, 255, 255, 0.75);
+	
+	content: '';
+	opacity: 0;
+}
+
+figure.effect-sadie h2 {
+	position: absolute;
+	top:40%;
+	line-height:50px;
+	left:44%;
+	width: 100%;
+	color: #1f1f1f;
+	-webkit-transition: -webkit-transform 1.35s, color 0.35s;
+	transition: transform 1.35s, color 0.35s;
+	-webkit-transform: translate3d(0,-20%,0);
+	transform: translate3d(0,-20%,0);
+	opacity: 0;
+	text-align:left;
+	text-transform:uppercase;
+	font-weight:900;
+	font-size:54px;
+    
+}
+.cbp-item figure.effect-sadie h2 img{width:65px;}
+figure.effect-sadie figcaption::before,
+figure.effect-sadie p {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-sadie p {
+	position: absolute;
+	bottom: 5%;
+	left: 3%;
+	width: 100%;
+	opacity: 0;
+	-webkit-transform: translate3d(0,10px,0);
+	transform: translate3d(0,10px,0);
+	text-align:left;
+	text-transform:none;
+	font-size:14px;
+	color:#1f1f1f;
+}
+
+
+figure.effect-sadie:hover h2 {
+	color: #1f1f1f;
+	-webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+	transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+}
+
+figure.effect-sadie:hover figcaption::before ,
+figure.effect-sadie:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-sadie:hover figcaption::before ,
+figure.effect-sadie:hover h2 {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.work .effect-sadie .image{position: relative;
+
+-moz-transition: all 18s ease-out;
+-o-transition: all 18s ease-out;
+-webkit-transition: all 18s ease-out;
+transition: all 18s ease-out;}
+
+.work .effect-sadie:hover .image{-moz-transform: scale(1.3, 1.3);
+-ms-transform: scale(1.3, 1.3);
+-webkit-transform: scale(1.3, 1.3);
+transform: scale(1.3, 1.3);
+-moz-transition: all 18s ease;
+-o-transition: all 18s ease;
+-webkit-transition: all 18s ease;
+transition: all 18s ease;}
+
+
+
+
+
+
+/*---------------*/
+/***** Zoe *****/
+/*---------------*/
+
+figure.effect-zoe figcaption {
+	top: auto;
+	bottom: 0;
+	padding: 0;
+	background: rgba(255, 255, 255, 0.94);
+	color: #3c4a50;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+
+figure.effect-zoe h2 {
+
+}
+
+figure.effect-zoe p.icon-links a {
+
+	color: #3c4a50;
+	font-size: 1.4em;
+}
+
+figure.effect-zoe:hover p.icon-links a:hover,
+figure.effect-zoe:hover p.icon-links a:focus {
+	color: #252d31;
+}
+
+figure.effect-zoe p.description {
+	padding: 0;
+	color: #222;
+	text-transform: none;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+	-webkit-backface-visibility: hidden; /* Fix for Chrome 37.0.2062.120 (Mac) */
+	display: inline-block;
+	width: 80%;
+
+}
+
+figure.effect-zoe h2,
+figure.effect-zoe p.icon-links a {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,200%,0);
+	transform: translate3d(0,200%,0);
+}
+
+
+figure.effect-zoe h2 {
+	display: inline-block;
+}
+
+figure.effect-zoe:hover p.description {
+	opacity: 1;
+}
+
+figure.effect-zoe:hover figcaption,
+figure.effect-zoe:hover h2,
+figure.effect-zoe:hover p.icon-links a {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-zoe:hover h2 {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+figure.effect-zoe:hover p.icon-links a:nth-child(3) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+figure.effect-zoe:hover p.icon-links a:nth-child(2) {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+figure.effect-zoe:hover p.icon-links a:first-child {
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+
+
+.icon-links{ margin:10px 00 0;}
+.icon-links a{ color:#222; }
+.icon-links a span.icon-facebook2{ font-size:25px;}
+.icon-links a span.icon-twitter-1{ font-size:28px;}
+.icon-links a span.icon-dribbble3{ font-size:22px;}
+.icon-links a span.icon-facebook2:hover{ color:#204190;}
+.icon-links a span.icon-twitter-1:hover{ color:#2ba8e0;}
+.icon-links a span.icon-dribbble3:hover{ color:#ea2695; }
+
+
+.team-members  .grid figure{ cursor:default;}
+
+.team-members figcaption p {width: 85%; display: inline-block; margin:12px 0 0 0;}
+.team-members figcaption h3{ text-transform:capitalize; margin: 25% 0 0 0; font-weight: 700; color: #222;}
+.team-members figcaption span.position{ text-transform:capitalize; font-size: 15px; margin: -3px 0 0 0; display: block; color: #797979;}
+
+figcaption img{ width:auto;}
+
+
+
+
+
+
+
+
+
+
