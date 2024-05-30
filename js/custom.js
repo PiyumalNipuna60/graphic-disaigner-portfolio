@@ -1,4 +1,4 @@
-<!-- Header -->	 
+// <!-- Header -->	 
 $(".header-two").cbSlideDownHeader({
     zIndex: 1001,
     //headerClone: true,
@@ -15,7 +15,7 @@ $(".header-two").cbSlideDownHeader({
 
 
 
-<!-- Smooth Scrol -->	 
+// <!-- Smooth Scrol -->	 
 $(function(){
 
 var $window = $(window);		//Window object
@@ -48,7 +48,7 @@ overwrite: 5
 
 
 
-<!-- FunFacts -->
+// <!-- FunFacts -->
 (function($) {
 		"use strict";
 		function count($this){
@@ -74,7 +74,7 @@ overwrite: 5
 
 
 
-<!-- Client Words Carousel -->	
+// <!-- Client Words Carousel -->	
 $(document).ready(function() {
  
   $("#client-words").owlCarousel({
@@ -99,7 +99,7 @@ $(document).ready(function() {
 
 
 
-<!-- Services Tabs -->	
+// <!-- Services Tabs -->	
 /* jQuery activation and setting options for the tabs*/
 var tabbedNav = $("#tabbed-nav").zozoTabs({
 orientation: "horizontal",
@@ -120,7 +120,7 @@ defaultTab: "tab1"
 
 
 
-<!-- About Slide Carousel -->
+// <!-- About Slide Carousel -->
 
 $(document).ready(function() {
  
